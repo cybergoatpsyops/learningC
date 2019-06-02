@@ -60,5 +60,5 @@ int main()
 		fprintf(fptr, "\n\n");
 	}
 	fclose(fptr); // Always close your files
-	return(0l);
+	return(0);
 }
