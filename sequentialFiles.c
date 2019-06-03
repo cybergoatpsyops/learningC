@@ -25,10 +25,10 @@ int main()
 		gets(books[ctr].title);
 		puts("Who is the author? ");
 		gets(books[ctr].author);
-		puts("How much did tghe book cost? ");
+		puts("How much did the book cost? ");
 		scanf(" $%f", &books[ctr].price);
 		puts("How many pages in the book? ");
-		scanf(" %d", &books[ctr].pages);
+		scanf(" %d\n", &books[ctr].pages);
 		getchar(); //Clears last newline for next loop
 	}
 
